@@ -36,10 +36,8 @@ This lecture provides an in-depth overview of how Large Language Models (LLMs) a
 - **Objective**: Model the probability distribution over sequences of tokens (e.g., words or subwords).
 - **Autoregressive Models**: Predict the next token based on previous tokens using the chain rule of probability.
 
-$$
-P(x_1, x_2, \dots, x_L) = \prod_{i=1}^{L} P(x_i \mid x_{<i})
-$$
-
+  $$P(x_1, x_2, \dots, x_L) = \prod_{i=1}^L P(x_i \mid x_{<i})$$
+  
 - **Example**:
   - Input: "She likely prefers"
   - Model predicts: "dogs" (or other plausible continuations).
