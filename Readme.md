@@ -84,9 +84,7 @@ This lecture provides an in-depth overview of how Large Language Models (LLMs) a
 - **Definition**: A measure of how well a probability model predicts a sample.
 - **Calculation**:
 
-  \[
-  \text{Perplexity} = 2^{\text{Cross-Entropy Loss}}
-  \]
+  $$\text{Perplexity} = 2^{\text{Cross-Entropy Loss}}$$
 
 - **Interpretation**:
   - Lower perplexity indicates better performance.
@@ -315,5 +313,3 @@ For more in-depth knowledge and practical experience in building and understandi
 - **CS336**: Large Language Models from Scratch
 
 ---
-.
-
